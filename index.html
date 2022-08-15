@@ -1,65 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>web challenge</title>
 </head>
-<body>
 
-<!-- <p style="color: red; background-color: green; font-size: 3cm; text-align: center;">hello World</p>
-<p style="color: green; background-color: brown; font-size: 3cm; text-align:right;">hello World</p>
-<p style=" background-color: aqua; font-size: 1.5; text-align: left;">hello World</p>
-<p style=" background-color: aqua; font-size: 1.5; text-align: center; font-style: italic;">hello World</p>
-<p style="border: 1px #ff0000 solid;">hello world</p>
+<body style="margin: 0;">
 
-<img src="https://play-lh.googleusercontent.com/V_P-I-UENK93ahkQgOWel8X8yFxjhOOfMAZjxXrqp311Gm_RBtlDXHLQhwFZN8n4aIQ" alt="Image">
+    <section class="nav"
+        style="position: fixed; width: 100vw; height: 24vh; background: lightskyblue; box-shadow: 0px 0px 30px;">
+        <h1 style="padding: 10px; font-size: 50px;">Dashboard</h1>
+        <a style="padding: 5px; color: black; font-size: 25px;" href="#home">home</a>
+        <a style="padding: 5px; color: black; font-size: 25px;" href="#about">about</a>
+        <a style="padding: 5px; color: black; font-size: 25px;" href="#portofolio">portofolio</a>
+        <a style="padding: 5px; color: black; font-size: 25px;" href="#contact">contact</a>
 
-<div style="border: 2px solid;">
 
-    <center><img src="20220413_050951-modified.png"  alt="Image" style="width: 300px; height: 300px;"></center>
-<p style="font-size: 100px; text-align:center;"><b>HI,</b> m.naufal syuja k.</p>
-<p style="font-size: 60px; text-align:center;"> im first learn HTML in class</p>
-<p style="font-size: 30px; text-align:center;">I hope you happy learn with me</p>
 
-</div> -->
+    </section>
 
-<h1>tabel</h1>
-<table style="width: 80%; border: 1px solid #000;"border="1px">
-    <tr>
-        <th>nama</th>
-        <th>grade</th>
-        <th>majors</th>
-        <th>adress</th>
-    </tr>
-    <tr>
-        <td>ipal</td>
-        <td>10</td>
-        <td>android dev</td>
-        <td>palembang</td>
-    </tr> 
-    <tr>
-        <td colspan="3">tes</td>
-        <td>tes</td>
-    </tr> 
-    <tr>
-        <td rowspan="2">tes</td>
-        <td>tes</td>
-        <td>tes</td>
-        <td>tes</td>
-    </tr>   
-    <tr>
-        <td>tes</td>
-        <td>tes</td>
-        <td>tes</td>
-    </tr>
-</table>
-    
+    <section id="home" style="width: 100vw; height: 150vh; background: lightskyblue">
+        <center><img src="Gw.png" width="300px" height="300px" style="border-radius: 100%; margin-top: 250px;" alt="">
+        </center>
+
+        <p style="font-size: 100px; text-align:center;"><b>HI,</b> Zirjy Zakwan Fayyadhiya</p>
+        <p style="font-size: 60px; text-align:center;"> This Is The First Time i Learn About HTML</p>
+        <p style="font-size: 30px; text-align:center;">I hope you happy learn with me</p>
+    </section>
+
+    <section id="about" style="width: 100vw; height: 100vh; background: lightskyblue">
+        <center>
+            <p style="font-size: 70px; padding-top: 200px; "><b>About</b>
+                <l> Me</l>
+            </p>
+        </center>
+        <center>
+            <p style="font-size: 30px;">hello, <b>i'm Web Developer</b>, Im Smart, <i>i'm tall</i>, i'm 10th grade in
+                idn boarding school, And I Hope I Can Be A <u>Good Developer</u> In Future,And I Hope I Can Get Many
+                Certificate Form Google
+        </center>
+    </section>
+
+    <section id="portofolio" style="width: 100vw; height: 100vh; background: lightskyblue">
+        <center>
+            <p style="font-size: 70px; padding-top: 200px; "><b>portofolio</b></p>
+        </center>
+        <table style="height: 60vh;width: 80vh; border: 1px solid #000;" border="1px">
+            <tr>
+                <th>tes 1</th>
+                <th>tes 2</th>
+                <th>tes 3</th>
+                <th>tes 4</th>
+                <th>tes 5</th>
+                <th>tes 6</th>
+            </tr>
+            <tr>
+        </table>
+    </section>
+
+    <section id="contact" style="width: 100vw; height: 100vh; background: lightskyblue; ">
+        <center>
+            <h1 style="font-size: 60px;">contact</h1>
+        </center>
+        <div style="display: flex; align-items: center; justify-content: center;">
+            <div style="width: 50vw;">
+                <fieldset>
+                    <legend
+                        style="background-color: blue; border-radius: 30px; color: white; width: 5em; padding: 15px;">
+                        <center> Send Me </center>
+                    </legend>
+                    <form action="#" method="post" style="padding: 15px; width:40%; float:left; text-align: left;">
+                        <label for="Name">Name</label>
+                        <input type="text" style="width: 100%;">
+                        <label for="Email">Email</label>
+                        <input type="email" style="width: 100%;">
+                        <label for="Message">Message</label>
+                        <input type="text" style="width:100%; height: 100px;">
+                        <button style="text-align: center;">Send</button>
+                    </form>
+                </fieldset>
+            </div>
+            <div style="width: 50vw;">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.115918601902!2d106.98892751486646!3d-6.2484526629213395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698c33198e9c27%3A0x601f156c56889521!2sMetropolitan%20Mall!5e0!3m2!1sen!2sid!4v1660534084228!5m2!1sen!2sid"
+                    width="600" height="450" style="border:0; float: right; margin-right: 3em; margin-top: 5em;"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+
 </body>
+
 </html>
-    
-
-
-
-
